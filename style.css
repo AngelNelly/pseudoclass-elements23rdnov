@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+
+}
+
+/* pseudo class */
+h1:hover {
+color: red;
+font-size: 3rem;
+/* text-decoration-line: underline; */
+border-bottom: 1px solid green;
+}
+
+/* pseudo elements */
+
+h1::before {
+    content: "Welcome to ";
+    color: blue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
